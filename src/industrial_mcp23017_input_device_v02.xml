@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/admin/Documents/KiCad/industrial_mcp23017_input_device/src/industrial_mcp23017_input_device.kicad_sch</source>
+    <date>Monday, February 06, 2023 at 03:25:22 PM</date>
+    <tool>Eeschema (6.0.9-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Industrial Input Device</title>
+        <company>Pekaway</company>
+        <rev>v01</rev>
+        <date>2023-02-04</date>
+        <source>industrial_mcp23017_input_device.kicad_sch</source>
+        <comment number="1" value="Checked by:  Karl "/>
+        <comment number="2" value="Designed by: Simon "/>
+        <comment number="3" value="Project Lead: Karl "/>
+        <comment number="4" value="Industrial Input Device"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/">
+      <title_block>
+        <title>Industrial Input Device</title>
+        <company>Pekaway</company>
+        <rev>v01</rev>
+        <date>2023-02-04</date>
+        <source>outputs.kicad_sch</source>
+        <comment number="1" value="Checked by:  Karl "/>
+        <comment number="2" value="Designed by: Simon "/>
+        <comment number="3" value="Project Lead: Karl "/>
+        <comment number="4" value="Industrial Input Device"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/">
+      <title_block>
+        <title>Industrial Input Device</title>
+        <company>Pekaway</company>
+        <rev>v01</rev>
+        <date>2023-02-04</date>
+        <source>Inputs.kicad_sch</source>
+        <comment number="1" value="Checked by:  Karl "/>
+        <comment number="2" value="Designed by: Simon "/>
+        <comment number="3" value="Project Lead: Karl "/>
+        <comment number="4" value="Industrial Input Device"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="industrial_mcp23017_input_device.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b764ff</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="industrial_mcp23017_input_device.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3316c700-b2eb-4d9a-8fa0-5d3bcc70ed3b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="industrial_mcp23017_input_device.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76d27c49-1385-4f99-877e-05563039ccd6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="industrial_mcp23017_input_device.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b7ca1d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="industrial_mcp23017_input_device.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b7c396</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="industrial_mcp23017_input_device.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b79d89</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP23017-E_SO</value>
+      <footprint>greencharge-footprints:SOIC-28_W7.5mm</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en023709</datasheet>
+      <fields>
+        <field name="Mfr#">MCP23017-E/SO-ND</field>
+      </fields>
+      <libsource lib="GCL_Integrated-Circuits" part="MCP23017-E_SO" description="IC I/O EXPANDER I2C 16B 28SOIC"/>
+      <property name="Mfr#" value="MCP23017-E/SO-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="industrial_mcp23017_input_device.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>537caaab-04d9-4041-b6ca-d93c6a956fc8</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x08</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>83f8e884-0071-421d-9ea4-cf331c024ee8</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>5dbb11f2-9d41-4eea-8c2e-6b66cdcd928c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>a3f98ea0-1fd7-48da-99a3-aadbb684200b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>195dbd0b-0048-4ed6-962d-07eafc7bd908</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>e96267ab-68f2-4c76-aafe-e17207ef0962</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>cfa6986a-0e62-4650-ba84-8cbe6f6ce6d1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>24ba140f-e666-435a-bed0-c2877b77e3e9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>1467ca52-050a-4d56-83ce-3f8ca21f0ab5</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>98cb5785-3dc9-4f63-b806-4fef7fb56b2e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>d9da764a-1c6a-4946-aed9-ab57b6ae8ce3</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>6c233cd9-0fda-499a-ba20-86c8c643db07</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>424ee02e-fd04-42b4-be34-d1d9d9d818cd</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>3948d3a0-ff9d-49f6-a367-1dc8a2ab8a8d</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>38cf9d01-c4cc-40cd-aecf-4a3fc79e1564</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>7f98ffc0-9ff4-4e9a-a658-19715a531b53</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>94faf6d6-1377-4567-8386-51a5ee49c2a7</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="outputs"/>
+      <property name="Sheetfile" value="outputs.kicad_sch"/>
+      <sheetpath names="/outputs/" tstamps="/b7c4f2ee-0ffe-4a39-b007-cac61bb9a4ae/"/>
+      <tstamps>17379474-907f-492a-9978-b7c1f2732ef5</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x08</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>fa557104-8f8a-434a-8f1a-6a9af909a0c1</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>70ef4752-48f0-459c-91e3-e63ee0e79482</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>b9b34e94-160c-499c-8663-4e1370f76910</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>81c323ce-1d47-473d-a10c-870a0fa704fd</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>cbb0bb59-4716-42bf-9f69-8d2b726ed7af</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>835af633-aaec-440e-b175-19534954f2da</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>4fbb6cd3-d7c3-4e04-a661-87dcb74ff133</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>18ba6e0e-9900-4fd6-bffe-3712aa0f34b7</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>eadf8d60-70ff-49b0-8ca5-e44a72d1e2c1</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>2bf5ecf4-38f7-4101-a5e4-2943940f8db0</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>c4ecc367-9ef1-4f07-b406-65d372c7395e</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>c20fbda7-0c17-4360-b2f4-4fd18326f35a</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>a9a3aee9-988f-4bc5-bb0e-b0e4236a3dab</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>6b0c477d-2d2a-44bf-bfd8-23b726d945dc</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>0edfa939-e1bd-4862-b0ba-cfe68f0fc43c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>0a7c570f-16be-4c7a-95a2-476c4f5bd534</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>c17b7063-b87b-48d9-af06-75da334a37d3</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>b9b73c5d-cbe0-4c29-b8c8-677d2e8c3f82</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>9bce5b94-3226-4edb-a83b-5b814fdad867</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>d870433a-0806-4fa6-b79a-c182ea215976</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>8c577b4d-7311-4ba6-91cb-affc57c8cc78</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>4587cb47-4da1-4164-9797-cc2ed54eab27</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>0b79497d-0692-43d5-8820-b8d48b177cf0</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>f708566e-aa72-4c8c-a32a-bf763e6d6336</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>PC817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm-updated</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value="Inputs"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/Inputs/" tstamps="/877f6737-2c13-41df-8ea2-c36f915d58d4/"/>
+      <tstamps>5f1ec358-87d4-4485-96e1-075125533398</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GCL_Integrated-Circuits" part="MCP23017-E_SO">
+      <description>IC I/O EXPANDER I2C 16B 28SOIC</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en023709</docs>
+      <fields>
+        <field name="Reference">U18</field>
+        <field name="Value">MCP23017-E_SO</field>
+        <field name="Footprint">greencharge-footprints:SOIC-28_W7.5mm</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en023709</field>
+        <field name="Mfr#">MCP23017-E/SO-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~{RESET}" type="output"/>
+        <pin num="19" name="INTB" type="output"/>
+        <pin num="20" name="INTA" type="output"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="PC817">
+      <description>DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4</description>
+      <docs>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PC817</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+        <field name="Datasheet">http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="GCL_Integrated-Circuits">
+      <uri>/Users/admin/Documents/KiCad/libraries/greencharge-kicad-library/greencharge-symbols/GCL_Integrated-Circuits.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Isolator.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="4" pintype="passive"/>
+      <node ref="U11" pin="4" pintype="passive"/>
+      <node ref="U12" pin="4" pintype="passive"/>
+      <node ref="U13" pin="4" pintype="passive"/>
+      <node ref="U14" pin="4" pintype="passive"/>
+      <node ref="U15" pin="4" pintype="passive"/>
+      <node ref="U16" pin="4" pintype="passive"/>
+      <node ref="U17" pin="4" pintype="passive"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+      <node ref="U4" pin="4" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="passive"/>
+      <node ref="U7" pin="4" pintype="passive"/>
+      <node ref="U8" pin="4" pintype="passive"/>
+      <node ref="U9" pin="4" pintype="passive"/>
+    </net>
+    <net code="3" name="/Inputs/In1">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GPA0" pintype="bidirectional"/>
+      <node ref="U10" pin="3" pintype="passive"/>
+    </net>
+    <net code="4" name="/Inputs/In2">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GPA1" pintype="bidirectional"/>
+      <node ref="U11" pin="3" pintype="passive"/>
+    </net>
+    <net code="5" name="/Inputs/In3">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GPA2" pintype="bidirectional"/>
+      <node ref="U12" pin="3" pintype="passive"/>
+    </net>
+    <net code="6" name="/Inputs/In4">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="GPA3" pintype="bidirectional"/>
+      <node ref="U13" pin="3" pintype="passive"/>
+    </net>
+    <net code="7" name="/Inputs/In5">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GPA4" pintype="bidirectional"/>
+      <node ref="U14" pin="3" pintype="passive"/>
+    </net>
+    <net code="8" name="/Inputs/In6">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="GPA5" pintype="bidirectional"/>
+      <node ref="U15" pin="3" pintype="passive"/>
+    </net>
+    <net code="9" name="/Inputs/In7">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GPA6" pintype="bidirectional"/>
+      <node ref="U16" pin="3" pintype="passive"/>
+    </net>
+    <net code="10" name="/Inputs/In8">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="GPA7" pintype="bidirectional"/>
+      <node ref="U17" pin="3" pintype="passive"/>
+    </net>
+    <net code="11" name="/Inputs/In_Trig1">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/Inputs/In_Trig2">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/Inputs/In_Trig3">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/Inputs/In_Trig4">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/Inputs/In_Trig5">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/Inputs/In_Trig6">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/Inputs/In_Trig7">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/Inputs/In_Trig8">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/outputs/OUT1">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pintype="passive"/>
+    </net>
+    <net code="20" name="/outputs/OUT2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pintype="passive"/>
+    </net>
+    <net code="21" name="/outputs/OUT3">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pintype="passive"/>
+    </net>
+    <net code="22" name="/outputs/OUT4">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pintype="passive"/>
+    </net>
+    <net code="23" name="/outputs/OUT5">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pintype="passive"/>
+    </net>
+    <net code="24" name="/outputs/OUT6">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U9" pin="3" pintype="passive"/>
+    </net>
+    <net code="25" name="/outputs/OUT7">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pintype="passive"/>
+    </net>
+    <net code="26" name="/outputs/OUT8">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pintype="passive"/>
+    </net>
+    <net code="27" name="/outputs/out_trig1">
+      <node ref="U1" pin="1" pinfunction="GPB0" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/outputs/out_trig2">
+      <node ref="U1" pin="2" pinfunction="GPB1" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/outputs/out_trig3">
+      <node ref="U1" pin="3" pinfunction="GPB2" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/outputs/out_trig4">
+      <node ref="U1" pin="4" pinfunction="GPB3" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="/outputs/out_trig5">
+      <node ref="U1" pin="5" pinfunction="GPB4" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/outputs/out_trig6">
+      <node ref="U1" pin="6" pinfunction="GPB5" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/outputs/out_trig7">
+      <node ref="U1" pin="7" pinfunction="GPB6" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/outputs/out_trig8">
+      <node ref="U1" pin="8" pinfunction="GPB7" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/sck">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="36" name="/sda">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="A0" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="A2" pintype="input"/>
+      <node ref="U10" pin="2" pintype="passive"/>
+      <node ref="U11" pin="2" pintype="passive"/>
+      <node ref="U12" pin="2" pintype="passive"/>
+      <node ref="U13" pin="2" pintype="passive"/>
+      <node ref="U14" pin="2" pintype="passive"/>
+      <node ref="U15" pin="2" pintype="passive"/>
+      <node ref="U16" pin="2" pintype="passive"/>
+      <node ref="U17" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pintype="passive"/>
+      <node ref="U9" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="~{RESET}" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U12" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U14" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U15" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U16" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U17" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="INTB" pintype="output"/>
+    </net>
+    <net code="50" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="INTA" pintype="output"/>
+    </net>
+  </nets>
+</export>
